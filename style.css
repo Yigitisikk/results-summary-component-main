@@ -37,7 +37,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--Pale-blue);
+    background-color: hsla(0, 0%, 100%, .5);
 }
 main{
     display: flex;
@@ -55,6 +55,7 @@ body p{
     display: flex;
     border-radius: 20px;
     width: 85%;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .1);
 }
 
 .card-left{
